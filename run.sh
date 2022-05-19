@@ -1,0 +1,1 @@
+nohup python PGTSP.py --epochs 300 --n_actions 3 --gpu_n 1 --n_points 100 >>my_4_opt.log 2>&1 &
