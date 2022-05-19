@@ -1,6 +1,6 @@
 ### 项目代码
 
-本项目实现了基于强化学习的k-opt算法，用于求解旅行商问题。项目代码主要基于https://github.com/paulorocosta/learning-2opt-drl，本项目的主要贡献在于将2-opt算子扩展为任意的k-opt，具体代码实现见ActorCriticNetwork.py，PGTSP.py，PGTSP_2_stages.py，TSPEnvironment.py和utils.py这几个代码文件的改写，其余代码文件与原项目一致。
+本项目实现了基于强化学习的k-opt算法，用于求解旅行商问题。项目代码主要基于[learning-2opt-drl](https://github.com/paulorocosta/learning-2opt-drl)，本项目的主要贡献在于将2-opt算子扩展为任意的k-opt，具体代码实现见ActorCriticNetwork.py，PGTSP.py，PGTSP_2_stages.py，TSPEnvironment.py和utils.py这几个代码文件的改写，其余代码文件与原项目一致。
 
 #### 训练
 
