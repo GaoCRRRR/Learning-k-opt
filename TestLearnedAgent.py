@@ -90,15 +90,10 @@ if __name__ == '__main__':
 
 
     if args.test_from_data:
-        # test_data = TSPDataset(dataset_fname=os.path.join(args.data_dir,
-        #                                                   'TSP{}-data-test.json'
-        #                                                   .format(args.n_points)),
-        #                        num_samples=args.test_size, seed=1234)
         test_data = TSPDataset(dataset_fname=os.path.join(args.data_dir,
-                                                          'data_train{}.json'
+                                                          'TSP{}-data-test.json'
                                                           .format(args.n_points)),
-                               size=args.n_points,
-                               num_samples=args.test_size)
+                               num_samples=args.test_size, seed=1234)
 
 
     test_loader = DataLoader(test_data,
